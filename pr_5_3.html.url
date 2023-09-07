@@ -1,2 +1,27 @@
-[InternetShortcut]
-URL=https://github.com/MakarSux/LDPK-HTML_3kurs/blob/main/pr_5_3.html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Опрос</legend>
+            <label for="a_hero">Кто ваш любимый герой мультфильма?</label> <br>
+                <select id="a_hero" multiple>
+                    <option value="7_gn">7 гномов</option>
+                    <option disabled selected>Спанчбоб</option>
+                    <option value="wh_fc">Белоснежка</option>
+                    <option value="whch">Ведьма</option>
+                    <option value="mount">Гора</option>
+                </select>
+                <br><br>
+            <label for="addit">Поясните</label><br>
+            <textarea id="addit" cols="30" rows="10"></textarea><br><br>
+            <button>Ответить</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
